@@ -6,10 +6,10 @@ export type ButtonProps = {
     className ?: string
 } & HTMLAttributes<HTMLButtonElement>
  
-const classes = cva("text-sm rounded-xl font-medium py-2 px-4 tracking-widest", {
+const classes = cva("text-sm rounded-xl font-medium py-2 px-4 tracking-widest cursor-pointer", {
   variants: {
     variant: {
-      primary: "bg-background",
+      primary: "bg-background hover:bg-gray-300/20 transition duration-300",
       secondary: "bg-foreground hover:shadow-brand",
     },
   },
