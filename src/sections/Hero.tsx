@@ -1,7 +1,8 @@
 import { Button } from "../components/Button"
 import { Heading } from "../components/Heading"
+import { Landingimage } from "../components/Landingimage"
 import { Subheading } from "../components/Subheading"
-import Agentforce from "../assets/4.webp"
+
 
 
 export const Hero = () => {
@@ -21,9 +22,7 @@ export const Hero = () => {
             <Button variant="primary" >View role based demos</Button>
             </div>
 
-            <div className="relative min-h-140 w-full pt-8">
-                <img src={Agentforce} alt="agentforce" className="absolute inset-0 mask-r-from-50% mask-b-from-50%"/>
-            </div>
+            <Landingimage></Landingimage>
         </div>
     </section>
   )
