@@ -1,10 +1,11 @@
+import { Header } from "./sections/Header"
 
 
 function App() {
 
   return (
     <div className="min-h-screen  bg-background text-foreground">
-      <p className="font-inter">Hii alll how r u?</p>
+      <Header/>
     </div>
   )
 }
