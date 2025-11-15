@@ -18,7 +18,7 @@ export const Hero = () => {
             </Subheading>
 
             <div className="flex items-center gap-4">
-            <Button variant="secondary" className="text-[#ffffff] shadow-brand">Start your free trial</Button>
+            <Button variant="secondary" className="text-[#ffffff] shadow-brand ">Start your free trial</Button>
             <Button variant="primary" >View role based demos</Button>
             </div>
 

@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 export const Landingimage = () => {
   return (
-    <div className="relative min-h-140 w-full pt-20">
+    <div className="relative min-h-72 sm:min-h-80 md:min-h-100 lg:min-h-200 w-full pt-20">
       <motion.div className="prespective-[4000px] transform-3d"
       initial = {{
         opacity : 0,
@@ -31,7 +31,7 @@ export const Landingimage = () => {
       
       </motion.div>
 
-      <motion.div className="prespective-[4000px] translate-x-20 -translate-y-40"
+      <motion.div className="prespective-[4000px] translate-x-5 md:translate-x-20 -translate-y-30 md:-translate-y-40"
       initial = {{
         opacity : 0,
         y : -400
